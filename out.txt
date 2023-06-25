@@ -1,0 +1,38 @@
+//////////////////////////////////File:  access-foreign-keys.py
+map[
+    access-foreign-keys:[8] 
+    aiopg-sqli:[] 
+    avoid-accessing-request-in-wrong-handler:[] 
+    crypto-mode-without-authentication:[] 
+    csv-writer-injection:[] 
+    insecure-hash-algorithm-md5:[] 
+    insecure-hash-algorithm-sha1:[] 
+    nan-injection:[] 
+    tainted-sql-string:[]
+]
+//////////////////////////////////File:  access-request-in-wrong-handler.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[8 13 18] crypto-mode-without-authentication:[] csv-writer-injection:[] insecure-hash-algorithm-md5:[] insecure-hash-algorithm-sha1:[] nan-injection:[] tainted-sql-string:[]]
+//////////////////////////////////File:  aiopg-sqli.py
+map[
+    access-foreign-keys:[] 
+    aiopg-sqli:[11 18 27 32 37 45 53] 
+    avoid-accessing-request-in-wrong-handler:[] 
+    crypto-mode-without-authentication:[] 
+    csv-writer-injection:[] 
+    insecure-hash-algorithm-md5:[] 
+    insecure-hash-algorithm-sha1:[] 
+    nan-injection:[] 
+    tainted-sql-string:[10 17 26 32 37 45 53 69 88 97 115 123 131]
+    ]
+//////////////////////////////////File:  csv-writer-injection.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[] crypto-mode-without-authentication:[] csv-writer-injection:[16 17] insecure-hash-algorithm-md5:[] insecure-hash-algorithm-sha1:[] nan-injection:[] tainted-sql-string:[]]
+//////////////////////////////////File:  insecure-hash-algorithms-md5.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[] crypto-mode-without-authentication:[] csv-writer-injection:[] insecure-hash-algorithm-md5:[2] insecure-hash-algorithm-sha1:[] nan-injection:[] tainted-sql-string:[]]
+//////////////////////////////////File:  insecure-hash-algorithms.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[] crypto-mode-without-authentication:[] csv-writer-injection:[] insecure-hash-algorithm-md5:[] insecure-hash-algorithm-sha1:[2] nan-injection:[] tainted-sql-string:[]]
+//////////////////////////////////File:  mode-without-authentication.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[] crypto-mode-without-authentication:[10] csv-writer-injection:[] insecure-hash-algorithm-md5:[] insecure-hash-algorithm-sha1:[] nan-injection:[] tainted-sql-string:[]]
+//////////////////////////////////File:  nan-injection.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[] crypto-mode-without-authentication:[] csv-writer-injection:[] insecure-hash-algorithm-md5:[] insecure-hash-algorithm-sha1:[] nan-injection:[12 22 24 30 32 34 42 47 56] tainted-sql-string:[]]
+//////////////////////////////////File:  tainted-sql-string.py
+map[access-foreign-keys:[] aiopg-sqli:[] avoid-accessing-request-in-wrong-handler:[] crypto-mode-without-authentication:[] csv-writer-injection:[] insecure-hash-algorithm-md5:[] insecure-hash-algorithm-sha1:[] nan-injection:[] tainted-sql-string:[12 18 22]]
